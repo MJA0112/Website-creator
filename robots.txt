@@ -1,0 +1,16 @@
+# robots.txt — automatisieren-digital.de
+User-agent: *
+Allow: /
+
+# Keep ad/landing variants and thank-you/error pages out of organic crawl noise
+# (these are also noindex via meta robots)
+Disallow: /landing/paid-ad.html
+Disallow: /danke.html
+
+# Block common junk
+Disallow: /*?utm_*
+Disallow: /*&utm_*
+
+# Sitemaps (static marketing site + WordPress blog)
+Sitemap: https://automatisieren-digital.de/sitemap.xml
+Sitemap: https://automatisieren-digital.de/blog/sitemap.xml

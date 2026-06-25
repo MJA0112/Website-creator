@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static marketing sitemap. Indexable pages only.
+  Excluded (noindex): danke.html, 404.html, impressum.html, datenschutz.html,
+  agb.html, cookie-richtlinie.html, landing/paid-ad.html.
+  The WordPress blog generates its own sitemap at /blog/sitemap.xml (see robots.txt).
+  Update <lastmod> on each deploy or have n8n/CI regenerate this file.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://automatisieren-digital.de/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://automatisieren-digital.de/assets/og-default.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/webentwicklung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/app-entwicklung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/automatisierung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/marketing.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/content-erstellung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/leistungen/leadgenerierung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/ueber-uns.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/case-studies.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/blog.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/blog/blog-artikel-vorlage.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/faq.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/kontakt.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>yearly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/landing/lead-generierung.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/landing/seo-landing.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://automatisieren-digital.de/landing/local-seo.html</loc>
+    <lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+</urlset>

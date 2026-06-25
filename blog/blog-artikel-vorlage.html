@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="de">
+<!--
+  ARTIKEL-VORLAGE / TEMPLATE
+  Dies ist die Master-Vorlage für Blogartikel. n8n bzw. WordPress befüllt diese
+  Struktur automatisch für 1000+ Artikel. Platzhalter, die pro Artikel ersetzt
+  werden: Seitentitel, Meta-Description, Canonical, OG/Twitter, BlogPosting-JSON-LD
+  (headline, datePublished, dateModified, image), Breadcrumb-Titel, .tag,
+  H1, .post-meta, Hero-Bild, Table of Contents, .prose-Inhalt, Autoren-Box,
+  Related-Posts. Layout, Header, Footer und CTA bleiben unverändert.
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prozesse automatisieren: 7-Schritte-Leitfaden 2026</title>
+  <meta name="description" content="Prozesse automatisieren im Mittelstand: Der 7-Schritte-Leitfaden 2026 mit Prozessanalyse, Tool-Wahl, n8n-Workflows und ROI. Jetzt praxisnah nachlesen.">
+  <link rel="canonical" href="https://automatisieren-digital.de/blog/blog-artikel-vorlage.html">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="author" content="Automatisieren-Digital Redaktion">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Automatisieren-Digital">
+  <meta property="og:url" content="https://automatisieren-digital.de/blog/blog-artikel-vorlage.html">
+  <meta property="og:title" content="Prozesse automatisieren: Der 7-Schritte-Leitfaden für den Mittelstand (2026)">
+  <meta property="og:description" content="Von der Prozessanalyse bis zum laufenden n8n-Workflow — so digitalisieren Sie Abläufe Schritt für Schritt, ohne Ihr Team zu überfordern.">
+  <meta property="og:image" content="https://automatisieren-digital.de/assets/og-default.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-18">
+  <meta property="article:modified_time" content="2026-06-20">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prozesse automatisieren: Der 7-Schritte-Leitfaden (2026)">
+  <meta name="twitter:description" content="So digitalisieren Sie Abläufe Schritt für Schritt — von der Prozessanalyse bis zum laufenden n8n-Workflow.">
+  <meta name="twitter:image" content="https://automatisieren-digital.de/assets/og-default.svg">
+
+  <!-- Icons & fonts -->
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Structured data: BlogPosting + BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Prozesse automatisieren: Der 7-Schritte-Leitfaden für den Mittelstand (2026)",
+        "description": "Von der Prozessanalyse bis zum laufenden n8n-Workflow — so digitalisieren Sie Abläufe Schritt für Schritt, ohne Ihr Team zu überfordern.",
+        "image": "https://automatisieren-digital.de/assets/og-default.svg",
+        "datePublished": "2026-06-18",
+        "dateModified": "2026-06-20",
+        "inLanguage": "de-DE",
+        "wordCount": 1300,
+        "keywords": "Prozesse automatisieren, n8n, Mittelstand, Digitalisierung, Workflow-Automatisierung",
+        "author": {
+          "@type": "Organization",
+          "name": "Automatisieren-Digital Redaktion",
+          "url": "https://automatisieren-digital.de/ueber-uns.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Automatisieren-Digital",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://automatisieren-digital.de/assets/logo.svg"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://automatisieren-digital.de/blog/blog-artikel-vorlage.html"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://automatisieren-digital.de/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://automatisieren-digital.de/blog.html" },
+          { "@type": "ListItem", "position": 3, "name": "Prozesse automatisieren: Der 7-Schritte-Leitfaden", "item": "https://automatisieren-digital.de/blog/blog-artikel-vorlage.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hauptnavigation" data-open="false">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/assets/logo.svg" alt="" width="34" height="34">
+          <span>Automatisieren<span style="color:var(--c-primary)">-Digital</span></span>
+        </a>
+        <button class="nav__toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Menü öffnen">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links" id="primary-menu">
+          <li class="has-sub">
+            <a href="/leistungen.html">Leistungen</a>
+            <ul class="nav__sub">
+              <li><a href="/leistungen/webentwicklung.html"><strong>Webentwicklung</strong><span>Websites & Onlineshops</span></a></li>
+              <li><a href="/leistungen/app-entwicklung.html"><strong>App-Entwicklung</strong><span>Web- & Mobile-Apps</span></a></li>
+              <li><a href="/leistungen/automatisierung.html"><strong>Automatisierung & KI</strong><span>n8n, Workflows, KI-Agenten</span></a></li>
+              <li><a href="/leistungen/marketing.html"><strong>Online-Marketing</strong><span>SEO, Ads, Social Media</span></a></li>
+              <li><a href="/leistungen/content-erstellung.html"><strong>Content-Erstellung</strong><span>Blog, Video, Kampagnen</span></a></li>
+              <li><a href="/leistungen/leadgenerierung.html"><strong>Leadgenerierung</strong><span>Funnels & CRM</span></a></li>
+            </ul>
+          </li>
+          <li><a href="/case-studies.html">Referenzen</a></li>
+          <li><a href="/blog.html" aria-current="page">Blog</a></li>
+          <li><a href="/ueber-uns.html">Über uns</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li class="nav__cta">
+            <a class="btn btn--ghost" href="/kontakt.html">Kontakt</a>
+            <a class="btn btn--primary" href="/kontakt.html#termin">Erstgespräch sichern</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <!-- ============ BREADCRUMBS ============ -->
+      <div class="container">
+        <nav class="crumbs" aria-label="Brotkrumen">
+          <a href="/">Start</a> <span>›</span>
+          <a href="/blog.html">Blog</a> <span>›</span>
+          <span aria-current="page">Prozesse automatisieren: Der 7-Schritte-Leitfaden</span>
+        </nav>
+      </div>
+
+      <!-- ============ ARTICLE HEADER ============ -->
+      <section class="section section--tight">
+        <div class="container container--narrow">
+          <header data-reveal>
+            <span class="tag">Automatisierung</span>
+            <h1 class="mt-1">Prozesse automatisieren: Der 7-Schritte-Leitfaden für den Mittelstand (2026)</h1>
+            <div class="post-meta muted mt-1">
+              <span>Von <strong>Automatisieren-Digital Redaktion</strong></span> ·
+              <time datetime="2026-06-18">18. Juni 2026</time> ·
+              <span>8 Min. Lesezeit</span>
+            </div>
+          </header>
+
+          <!-- Hero / Featured image block -->
+          <div class="post-card__img mt-2" role="img" aria-label="Illustration eines automatisierten Workflows im Mittelstand" style="aspect-ratio:21/9;border-radius:var(--radius-lg);font-size:var(--fs-700)" data-reveal>
+            Prozesse automatisieren
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ARTICLE BODY ============ -->
+      <section class="section section--tight">
+        <div class="container container--narrow">
+          <div class="prose" data-reveal>
+
+            <!-- Table of contents -->
+            <nav class="toc" aria-label="Inhaltsverzeichnis">
+              <strong>Inhaltsverzeichnis</strong>
+              <ol>
+                <li><a href="#warum">Warum sich Automatisierung im Mittelstand lohnt</a></li>
+                <li><a href="#schritt-1">Schritt 1: Prozesse sichtbar machen</a></li>
+                <li><a href="#schritt-2">Schritt 2: Den richtigen Prozess priorisieren</a></li>
+                <li><a href="#schritt-3">Schritt 3: Ist-Prozess dokumentieren</a></li>
+                <li><a href="#schritt-4">Schritt 4: Werkzeuge auswählen (n8n &amp; Co.)</a></li>
+                <li><a href="#schritt-5">Schritt 5: Workflow bauen und testen</a></li>
+                <li><a href="#schritt-6">Schritt 6: Ausrollen und Team mitnehmen</a></li>
+                <li><a href="#schritt-7">Schritt 7: Messen, optimieren, skalieren</a></li>
+                <li><a href="#fazit">Fazit &amp; nächste Schritte</a></li>
+              </ol>
+            </nav>
+
+            <p>Viele mittelständische Unternehmen verlieren jede Woche etliche Stunden mit Aufgaben, die niemandem Freude bereiten: Daten von einem System ins nächste übertragen, immer gleiche E-Mails verschicken, Angebote zusammenkopieren oder Termine manuell nachfassen. Diese Tätigkeiten sind notwendig — aber sie binden teure Fachkräfte an Routine statt an Wertschöpfung. Genau hier setzt Prozessautomatisierung an.</p>
+
+            <p>Die gute Nachricht: Sie brauchen dafür weder eine eigene IT-Abteilung noch ein sechsstelliges Budget. Mit einem strukturierten Vorgehen und Werkzeugen wie <strong>n8n</strong> lassen sich viele Abläufe in wenigen Wochen automatisieren. In diesem Leitfaden zeigen wir Ihnen in sieben praxiserprobten Schritten, wie Sie Prozesse im Mittelstand automatisieren — vom ersten Überblick bis zum laufenden, messbaren Workflow.</p>
+
+            <h2 id="warum">Warum sich Automatisierung im Mittelstand lohnt</h2>
+            <p>Automatisierung ist kein Selbstzweck. Sie zahlt auf drei konkrete Geschäftsziele ein: <strong>Zeit sparen</strong>, <strong>Fehler vermeiden</strong> und <strong>schneller liefern</strong>. Wenn ein Mitarbeiter pro Woche fünf Stunden weniger mit dem Kopieren von Daten verbringt, gewinnen Sie über das Jahr mehr als eine ganze Arbeitswoche zurück — pro Person. Diese Zeit fließt in Beratung, Vertrieb oder Service, also in Tätigkeiten, die tatsächlich Umsatz bringen.</p>
+            <p>Hinzu kommt: Automatisierte Abläufe sind zuverlässiger als manuelle. Ein Workflow vergisst nie, den Kunden nach 48 Stunden nachzufassen, und vertippt sich nicht in der Rechnungsnummer. Gerade im Mittelstand, wo Prozesse oft an einzelnen Personen hängen, schafft Automatisierung außerdem Ausfallsicherheit und macht Wissen unabhängig von einzelnen Köpfen.</p>
+
+            <blockquote>Automatisierung ersetzt keine Menschen — sie befreit Menschen von Aufgaben, die Maschinen besser erledigen, und gibt ihnen die Zeit zurück für Aufgaben, die nur Menschen können.</blockquote>
+
+            <h3>Ein Rechenbeispiel aus der Praxis</h3>
+            <p>Nehmen wir ein realistisches Szenario: In einem Betrieb verbringen drei Mitarbeiter jeweils vier Stunden pro Woche damit, eingehende Anfragen manuell ins CRM zu übertragen und Standard-Antworten zu verschicken. Das sind zwölf Stunden wöchentlich — über ein Jahr gerechnet rund 550 Arbeitsstunden, die in reine Tipparbeit fließen. Wird dieser Ablauf automatisiert, entstehen diese Stunden nur noch einmalig beim Aufbau des Workflows. Danach laufen sie kostenlos im Hintergrund weiter. Der Return on Investment ist in solchen Fällen meist schon nach wenigen Wochen erreicht.</p>
+            <p>Genauso wichtig wie die gesparte Zeit ist die gewonnene Reaktionsgeschwindigkeit: Eine Anfrage, die früher erst am nächsten Werktag bearbeitet wurde, erhält jetzt innerhalb von Minuten eine Eingangsbestätigung. Schnelligkeit entscheidet im Vertrieb häufig darüber, ob ein Interessent zum Kunden wird oder beim Wettbewerber abschließt.</p>
+
+            <h2 id="schritt-1">Schritt 1: Prozesse sichtbar machen</h2>
+            <p>Bevor Sie irgendetwas automatisieren, müssen Sie wissen, <em>was</em> in Ihrem Unternehmen eigentlich täglich passiert. Setzen Sie sich mit den Teamleitern zusammen und sammeln Sie alle wiederkehrenden Aufgaben — unabhängig davon, ob sie auf den ersten Blick automatisierbar wirken. Typische Kandidaten sind:</p>
+            <ul class="ticks">
+              <li>Angebots- und Rechnungserstellung</li>
+              <li>Terminvereinbarung und Erinnerungen</li>
+              <li>Datenübertragung zwischen CRM, Buchhaltung und E-Mail</li>
+              <li>Onboarding neuer Kunden oder Mitarbeiter</li>
+              <li>Reporting und das Zusammenstellen von Kennzahlen</li>
+              <li>Bearbeitung eingehender Anfragen aus Formularen</li>
+            </ul>
+            <p>Das Ziel dieses Schritts ist eine ehrliche Bestandsaufnahme. Sie werden überrascht sein, wie viele kleine Handgriffe sich über den Tag summieren.</p>
+
+            <h2 id="schritt-2">Schritt 2: Den richtigen Prozess priorisieren</h2>
+            <p>Nicht jeder Prozess eignet sich gleich gut für den Einstieg. Bewerten Sie Ihre Liste nach zwei Kriterien: <strong>Häufigkeit</strong> (wie oft passiert die Aufgabe?) und <strong>Aufwand</strong> (wie lange dauert sie jeweils?). Aufgaben, die häufig <em>und</em> zeitaufwendig sind, bieten den größten Hebel.</p>
+            <p>Für den ersten Workflow empfehlen wir bewusst einen Prozess mit überschaubarer Komplexität, aber spürbarer Wirkung. Ein schneller, sichtbarer Erfolg schafft Vertrauen im Team und macht es leichter, größere Automatisierungen anzugehen. Vermeiden Sie es, gleich das komplizierteste Großprojekt zuerst anzupacken.</p>
+
+            <h2 id="schritt-3">Schritt 3: Ist-Prozess dokumentieren</h2>
+            <p>Bevor ein Prozess automatisiert werden kann, muss er verstanden sein. Zeichnen Sie den Ablauf Schritt für Schritt auf: Wo beginnt er, welche Auslöser gibt es, welche Entscheidungen werden getroffen, welche Systeme sind beteiligt und wo endet er? Diese Dokumentation deckt fast immer Brüche und überflüssige Schleifen auf.</p>
+            <h3>Erst vereinfachen, dann automatisieren</h3>
+            <p>Ein häufiger Fehler: schlechte Prozesse einfach schneller machen. Wenn ein Ablauf umständlich ist, wird er durch Automatisierung nur ein umständlicher, automatisierter Ablauf. Nutzen Sie die Dokumentation daher, um zuerst zu vereinfachen — und automatisieren Sie anschließend die schlanke Version.</p>
+
+            <h2 id="schritt-4">Schritt 4: Werkzeuge auswählen (n8n &amp; Co.)</h2>
+            <p>Für die technische Umsetzung gibt es eine ganze Reihe von Automatisierungsplattformen. Wir setzen im Mittelstand bevorzugt auf <strong>n8n</strong>, weil es drei Vorteile vereint: Es lässt sich <strong>selbst hosten</strong> (volle Datenkontrolle in der EU), ist <strong>DSGVO-freundlich</strong> und durch hunderte Integrationen sehr flexibel. So bleiben sensible Daten in Ihrer Umgebung, statt durch fremde Cloud-Dienste zu wandern.</p>
+            <p>Welches Werkzeug am Ende passt, hängt von Ihren bestehenden Systemen, Ihren Datenschutzanforderungen und dem benötigten Funktionsumfang ab. Mehr dazu lesen Sie auf unserer Leistungsseite zur <a href="/leistungen/automatisierung.html">Automatisierung &amp; KI</a>, wo wir Tools und Einsatzfälle ausführlich vorstellen.</p>
+
+            <h2 id="schritt-5">Schritt 5: Workflow bauen und testen</h2>
+            <p>Jetzt wird gebaut. Ein typischer Workflow besteht aus einem <strong>Auslöser</strong> (z. B. ein neues Formular-Lead), mehreren <strong>Aktionen</strong> (Daten ins CRM schreiben, E-Mail versenden, Aufgabe anlegen) und gegebenenfalls <strong>Bedingungen</strong> (z. B. nur bei Anfragen über einem bestimmten Auftragswert). Bauen Sie den Ablauf modular auf, damit er später leicht erweiterbar ist.</p>
+            <p>Entscheidend ist gründliches Testen mit echten, aber unkritischen Daten. Prüfen Sie auch die Ausnahmen: Was passiert, wenn ein Feld leer ist oder ein System nicht antwortet? Ein guter Workflow scheitert nicht stillschweigend, sondern meldet Fehler, damit ein Mensch eingreifen kann.</p>
+
+            <h2 id="schritt-6">Schritt 6: Ausrollen und Team mitnehmen</h2>
+            <p>Technik allein reicht nicht — Ihr Team muss den neuen Ablauf verstehen und mittragen. Erklären Sie, <em>welche</em> Aufgaben die Automatisierung übernimmt und welche weiterhin beim Menschen liegen. Nehmen Sie Sorgen ernst: Gut kommunizierte Automatisierung entlastet, sie ersetzt keine geschätzten Kolleginnen und Kollegen.</p>
+            <p>Dokumentieren Sie den neuen Soll-Prozess und benennen Sie eine verantwortliche Person, die den Workflow betreut. So bleibt das Wissen im Unternehmen, auch wenn einzelne Mitarbeiter wechseln.</p>
+
+            <h2 id="schritt-7">Schritt 7: Messen, optimieren, skalieren</h2>
+            <p>Ein Workflow ist nie „fertig". Legen Sie vorab fest, woran Sie den Erfolg messen: gesparte Stunden, kürzere Durchlaufzeiten, weniger Fehler oder schnellere Reaktionszeiten gegenüber Kunden. Vergleichen Sie diese Kennzahlen nach vier bis acht Wochen mit dem Ausgangszustand.</p>
+            <p>Sobald der erste Prozess stabil läuft und Wirkung zeigt, wiederholen Sie den Zyklus mit dem nächsten Kandidaten von Ihrer Prioritätenliste. So entsteht Schritt für Schritt ein System aus ineinandergreifenden Automatisierungen — und aus einem Pilotprojekt wird eine echte Effizienzkultur. Wenn auf diesem Weg planbar neue Anfragen entstehen sollen, kombinieren wir die Automatisierung gern mit gezielter <a href="/leistungen/leadgenerierung.html">Leadgenerierung</a>.</p>
+
+            <!-- Key takeaways box -->
+            <aside class="card" style="background:var(--c-surface-2)" aria-label="Das Wichtigste in Kürze">
+              <h3 style="margin-top:0">Das Wichtigste in Kürze</h3>
+              <ul class="ticks">
+                <li>Erst Prozesse sichtbar machen, dann priorisieren — Häufigkeit × Aufwand zeigt den größten Hebel.</li>
+                <li>Vereinfachen vor Automatisieren: Schlechte Abläufe werden durch Technik nicht besser.</li>
+                <li>n8n bietet dem Mittelstand DSGVO-freundliche, selbst gehostete Automatisierung.</li>
+                <li>Gründlich testen, das Team mitnehmen und den Erfolg messbar machen.</li>
+                <li>Erst skalieren, wenn der erste Workflow stabil läuft und Wirkung zeigt.</li>
+              </ul>
+            </aside>
+
+            <h2 id="fazit">Fazit &amp; nächste Schritte</h2>
+            <p>Prozessautomatisierung ist im Mittelstand 2026 keine Frage des „ob" mehr, sondern des „wie schnell". Mit den sieben Schritten dieses Leitfadens gehen Sie strukturiert vor, vermeiden typische Fehler und erzielen früh sichtbare Erfolge. Der Schlüssel liegt nicht in der größten Technik, sondern im richtigen ersten Prozess — und im konsequenten Messen und Verbessern.</p>
+            <p>Sie möchten wissen, welche drei Prozesse in Ihrem Unternehmen den schnellsten Return bringen? In einem kostenlosen Erstgespräch analysieren wir Ihre Abläufe und zeigen Ihnen konkrete Automatisierungspotenziale auf.</p>
+          </div>
+
+          <!-- Author bio -->
+          <div class="quote mt-3" data-reveal>
+            <figcaption class="quote__by" style="margin-top:0">
+              <span class="quote__avatar">AD</span>
+              <span>
+                <strong>Automatisieren-Digital Redaktion</strong>
+                <span>Wir digitalisieren und automatisieren mittelständische Unternehmen in Deutschland — mit Websites, Apps, n8n-Workflows und KI.</span>
+              </span>
+            </figcaption>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ RELATED POSTS ============ -->
+      <section class="section section--soft">
+        <div class="container">
+          <div class="section-head center" data-reveal>
+            <span class="eyebrow">Weiterlesen</span>
+            <h2>Passende Artikel</h2>
+          </div>
+          <div class="grid grid-3">
+            <a class="post-card" href="#" data-reveal>
+              <div class="post-card__img" aria-hidden="true">n8</div>
+              <div class="post-card__body">
+                <span class="tag">Automatisierung</span>
+                <h3>n8n vs. Zapier vs. Make: Welches Tool passt zu Ihrem Betrieb?</h3>
+                <p>Kosten, Datenschutz und Flexibilität im ehrlichen Vergleich für den Mittelstand.</p>
+                <div class="post-card__meta">14. Mai 2026 · 7 Min. Lesezeit</div>
+              </div>
+            </a>
+            <a class="post-card" href="#" data-reveal>
+              <div class="post-card__img" aria-hidden="true">KI</div>
+              <div class="post-card__body">
+                <span class="tag">KI &amp; Tools</span>
+                <h3>KI-Agenten im Mittelstand: 8 sinnvolle Einsatzfälle für 2026</h3>
+                <p>Wo künstliche Intelligenz heute schon konkret Zeit spart.</p>
+                <div class="post-card__meta">11. Juni 2026 · 7 Min. Lesezeit</div>
+              </div>
+            </a>
+            <a class="post-card" href="#" data-reveal>
+              <div class="post-card__img" aria-hidden="true">DS</div>
+              <div class="post-card__body">
+                <span class="tag">Digitalisierung</span>
+                <h3>Digitalisierung im Mittelstand: Wo Sie 2026 anfangen sollten</h3>
+                <p>Eine pragmatische Roadmap mit den fünf Bereichen mit dem schnellsten Return.</p>
+                <div class="post-card__meta">7. Mai 2026 · 10 Min. Lesezeit</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CTA + LEAD FORM ============ -->
+      <section class="section">
+        <div class="container">
+          <div class="hero__grid">
+            <div data-reveal>
+              <span class="eyebrow">Nächster Schritt</span>
+              <h2 class="mt-1">Welche 3 Prozesse sollten Sie zuerst automatisieren?</h2>
+              <p class="lead mt-1">Im kostenlosen Erstgespräch analysieren wir Ihre Abläufe und zeigen Ihnen konkrete, sofort umsetzbare Automatisierungspotenziale — unverbindlich und in Ihrer Sprache.</p>
+              <ul class="ticks mt-2">
+                <li>Individuelle Prozessanalyse statt Standard-Pitch</li>
+                <li>Konkrete Einschätzung von Aufwand und ROI</li>
+                <li>DSGVO-konform, Hosting in der EU</li>
+              </ul>
+            </div>
+            <div data-reveal>
+              <div class="form--card">
+                <h2 style="font-size:var(--fs-500)">Erstgespräch anfragen</h2>
+                <p class="muted" style="font-size:var(--fs-300)">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
+                <form class="form mt-1" data-form="lead" data-redirect="/danke.html" action="/kontakt.html#termin" novalidate>
+                  <div class="field">
+                    <label for="a-name">Name <span class="req">*</span></label>
+                    <input id="a-name" name="name" type="text" required autocomplete="name" placeholder="Max Mustermann">
+                    <span class="field__error">Bitte geben Sie Ihren Namen an.</span>
+                  </div>
+                  <div class="field">
+                    <label for="a-email">Geschäftliche E-Mail <span class="req">*</span></label>
+                    <input id="a-email" name="email" type="email" required autocomplete="email" placeholder="max@firma.de">
+                    <span class="field__error">Bitte geben Sie eine gültige E-Mail an.</span>
+                  </div>
+                  <div class="field">
+                    <label for="a-msg">Welchen Prozess möchten Sie automatisieren?</label>
+                    <textarea id="a-msg" name="message" rows="3" placeholder="z. B. Angebotserstellung, Terminerinnerungen …"></textarea>
+                  </div>
+                  <div class="honeypot"><label>Firmen-URL<input type="text" name="company_url" tabindex="-1" autocomplete="off"></label></div>
+                  <div class="field field--check">
+                    <input id="a-privacy" name="privacy" type="checkbox" required>
+                    <label for="a-privacy">Ich stimme der Verarbeitung meiner Daten gemäß <a href="/datenschutz.html">Datenschutzerklärung</a> zu. <span class="req">*</span></label>
+                  </div>
+                  <button class="btn btn--primary btn--block" type="submit">Kostenloses Erstgespräch anfragen</button>
+                  <div class="form__status" role="status" aria-live="polite"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="/" style="color:#fff"><img class="brand__mark" src="/assets/logo.svg" alt="" width="34" height="34"><span>Automatisieren-Digital</span></a>
+          <p class="mt-1" style="max-width:30ch">Ihre Digitalagentur für Websites, Apps, KI-Automatisierung und Leadgenerierung in Deutschland.</p>
+          <div class="social mt-2">
+            <a href="https://www.linkedin.com/company/automatisieren-digital" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.1c.5-.95 1.8-1.95 3.6-1.95 3.8 0 4.5 2.5 4.5 5.7V21H21v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg></a>
+            <a href="https://www.instagram.com/automatisieren.digital" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Leistungen</h4>
+          <ul class="footer-links">
+            <li><a href="/leistungen/webentwicklung.html">Webentwicklung</a></li>
+            <li><a href="/leistungen/app-entwicklung.html">App-Entwicklung</a></li>
+            <li><a href="/leistungen/automatisierung.html">Automatisierung &amp; KI</a></li>
+            <li><a href="/leistungen/marketing.html">Online-Marketing</a></li>
+            <li><a href="/leistungen/content-erstellung.html">Content-Erstellung</a></li>
+            <li><a href="/leistungen/leadgenerierung.html">Leadgenerierung</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Unternehmen</h4>
+          <ul class="footer-links">
+            <li><a href="/ueber-uns.html">Über uns</a></li>
+            <li><a href="/case-studies.html">Referenzen</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Rechtliches</h4>
+          <ul class="footer-links">
+            <li><a href="/impressum.html">Impressum</a></li>
+            <li><a href="/datenschutz.html">Datenschutz</a></li>
+            <li><a href="/agb.html">AGB</a></li>
+            <li><a href="/cookie-richtlinie.html">Cookie-Richtlinie</a></li>
+            <li><a href="#" onclick="ADIGITAL.openConsent();return false;">Cookie-Einstellungen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Automatisieren-Digital · Deutschland</p>
+        <ul class="footer-links">
+          <li><a href="/impressum.html">Impressum</a></li>
+          <li><a href="/datenschutz.html">Datenschutz</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ COOKIE BANNER ============ -->
+  <aside class="cookie" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-Hinweis">
+    <h4>Wir respektieren Ihre Privatsphäre</h4>
+    <p>Wir verwenden Cookies für Funktion, Statistik und Marketing. Notwendige Cookies sind immer aktiv. Sie entscheiden über den Rest.</p>
+    <div class="field--check mt-1"><input id="consent-analytics" type="checkbox"><label for="consent-analytics">Statistik (Google Analytics)</label></div>
+    <div class="field--check"><input id="consent-marketing" type="checkbox"><label for="consent-marketing">Marketing (Meta, LinkedIn, Ads)</label></div>
+    <div class="cookie__actions">
+      <button class="btn btn--primary" data-consent="accept">Alle akzeptieren</button>
+      <button class="btn btn--ghost" data-consent="save">Auswahl speichern</button>
+      <button class="btn btn--ghost" data-consent="reject">Ablehnen</button>
+    </div>
+  </aside>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

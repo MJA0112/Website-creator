@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--
+  LOCAL SEO LANDING TEMPLATE — example city: HAMBURG
+  Duplicate this template per city (Berlin, München, Köln, Frankfurt, Stuttgart …)
+  by swapping the city tokens everywhere they appear:
+    • the page title, meta description, OG/Twitter, canonical URL (e.g. .../local-seo-berlin.html)
+    • all "Hamburg" mentions in headings, copy, testimonials and NAP
+    • the .pill-list of nearby districts/areas (use the new city's surroundings)
+    • LocalBusiness JSON-LD: address (city/region/postal code) + areaServed name
+    • the FAQ question/answer city references
+  Keep each city page indexable with its own self-referential canonical.
+-->
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automatisierung & Digitalagentur in Hamburg</title>
+  <meta name="description" content="Digitalagentur & Automatisierung in Hamburg: Wir digitalisieren und automatisieren Unternehmen aus Hamburg und Umgebung. DSGVO-konform & zum Festpreis.">
+  <link rel="canonical" href="https://automatisieren-digital.de/landing/local-seo.html">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="author" content="Automatisieren-Digital">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Automatisieren-Digital">
+  <meta property="og:url" content="https://automatisieren-digital.de/landing/local-seo.html">
+  <meta property="og:title" content="Automatisierung & Digitalagentur in Hamburg">
+  <meta property="og:description" content="Wir digitalisieren und automatisieren Unternehmen aus Hamburg und Umgebung. DSGVO-konform und zum Festpreis.">
+  <meta property="og:image" content="https://automatisieren-digital.de/assets/og-default.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Automatisierung & Digitalagentur in Hamburg">
+  <meta name="twitter:description" content="Wir digitalisieren und automatisieren Unternehmen aus Hamburg und Umgebung. DSGVO-konform, Festpreis.">
+  <meta name="twitter:image" content="https://automatisieren-digital.de/assets/og-default.svg">
+
+  <!-- Icons & fonts -->
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Structured data: LocalBusiness + FAQPage + BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://automatisieren-digital.de/landing/local-seo.html#localbusiness",
+        "name": "Automatisieren-Digital — Hamburg",
+        "url": "https://automatisieren-digital.de/landing/local-seo.html",
+        "image": "https://automatisieren-digital.de/assets/og-default.svg",
+        "email": "info@automatisieren-digital.de",
+        "telephone": "+49-000-0000000",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Musterstraße 1",
+          "postalCode": "20095",
+          "addressLocality": "Hamburg",
+          "addressRegion": "Hamburg",
+          "addressCountry": "DE"
+        },
+        "areaServed": { "@type": "City", "name": "Hamburg" },
+        "parentOrganization": { "@id": "https://automatisieren-digital.de/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Arbeitet ihr auch mit Unternehmen außerhalb der Hamburger Innenstadt?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja. Wir betreuen Unternehmen aus ganz Hamburg und der Metropolregion — von Altona über die Hafencity bis nach Harburg, Pinneberg, Norderstedt und Lüneburg. Termine sind vor Ort oder per Video möglich." }
+          },
+          {
+            "@type": "Question",
+            "name": "Seid ihr persönlich in Hamburg erreichbar?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja. Sie haben einen festen, deutschsprachigen Ansprechpartner. Für Unternehmen aus Hamburg und Umgebung sind Vor-Ort-Termine nach Absprache jederzeit möglich." }
+          },
+          {
+            "@type": "Question",
+            "name": "Welche Leistungen bietet ihr in Hamburg an?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Websites, Apps, Prozessautomatisierung mit n8n und KI, Online-Marketing sowie Leadgenerierung — alles aus einer Hand und für Hamburger Unternehmen aus Handwerk, Handel, Industrie und Dienstleistung." }
+          },
+          {
+            "@type": "Question",
+            "name": "Ist die Zusammenarbeit DSGVO-konform?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja. Wir hosten in Deutschland bzw. der EU, setzen Consent-Management ein und dokumentieren die Datenverarbeitung sauber — inklusive Auftragsverarbeitungsvertrag." }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Start", "item": "https://automatisieren-digital.de/" },
+          { "@type": "ListItem", "position": 2, "name": "Digitalagentur & Automatisierung in Hamburg", "item": "https://automatisieren-digital.de/landing/local-seo.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <!-- ============ MINIMAL LANDING HEADER (logo + single CTA, no nav menu) ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hauptnavigation" data-open="false">
+        <a class="brand" href="/">
+          <img class="brand__mark" src="/assets/logo.svg" alt="" width="34" height="34">
+          <span>Automatisieren<span style="color:var(--c-primary)">-Digital</span></span>
+        </a>
+        <a class="btn btn--primary" href="tel:+490000000000">☎ +49 000 0000000</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero section">
+      <div class="container">
+        <nav class="crumbs" aria-label="Brotkrumen"><a href="/">Start</a> <span>›</span> <span aria-current="page">Digitalagentur &amp; Automatisierung in Hamburg</span></nav>
+        <div class="hero__grid">
+          <div data-reveal>
+            <span class="badge">📍 Für Unternehmen aus Hamburg und Umgebung</span>
+            <h1 class="mt-2">Digitalagentur &amp; Automatisierung in Hamburg</h1>
+            <p class="lead mt-2">Sie suchen einen Partner aus der Region, der Ihr Unternehmen digitalisiert und Prozesse automatisiert? Wir unterstützen Betriebe aus Hamburg und der Metropolregion mit Websites, Apps, KI-Automatisierung und Leadgenerierung — DSGVO-konform und zum Festpreis.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary btn--lg" href="#beratung">Kostenloses Erstgespräch</a>
+              <a class="btn btn--ghost btn--lg" href="tel:+490000000000">☎ Anrufen</a>
+            </div>
+            <div class="hero__trust">
+              <span><strong>Vor Ort</strong> in Hamburg</span>
+              <span><strong>Persönlicher</strong> Ansprechpartner</span>
+              <span><strong>DSGVO-konform</strong></span>
+            </div>
+          </div>
+          <div data-reveal>
+            <div class="form--card" id="beratung">
+              <h2 style="font-size:var(--fs-500)">Erstgespräch in Hamburg sichern</h2>
+              <p class="muted" style="font-size:var(--fs-300)">Vor Ort oder per Video. Antwort innerhalb von 24 Stunden.</p>
+              <form class="form mt-1" data-form="lead" data-redirect="/danke.html" novalidate>
+                <div class="field">
+                  <label for="loc-name">Name <span class="req">*</span></label>
+                  <input id="loc-name" name="name" type="text" required autocomplete="name" placeholder="Max Mustermann">
+                  <span class="field__error">Bitte geben Sie Ihren Namen an.</span>
+                </div>
+                <div class="field">
+                  <label for="loc-email">Geschäftliche E-Mail <span class="req">*</span></label>
+                  <input id="loc-email" name="email" type="email" required autocomplete="email" placeholder="max@firma.de">
+                  <span class="field__error">Bitte geben Sie eine gültige E-Mail an.</span>
+                </div>
+                <div class="field">
+                  <label for="loc-company">Unternehmen <span class="req">*</span></label>
+                  <input id="loc-company" name="company" type="text" required autocomplete="organization" placeholder="Muster GmbH aus Hamburg">
+                  <span class="field__error">Bitte geben Sie Ihr Unternehmen an.</span>
+                </div>
+                <div class="field">
+                  <label for="loc-phone">Telefon</label>
+                  <input id="loc-phone" name="phone" type="tel" autocomplete="tel" placeholder="+49 40 ...">
+                </div>
+                <div class="field">
+                  <label for="loc-interest">Ihr Anliegen</label>
+                  <select id="loc-interest" name="interest">
+                    <option value="website">Website / Onlineshop</option>
+                    <option value="automatisierung">Prozesse automatisieren</option>
+                    <option value="leads">Mehr Leads aus Hamburg</option>
+                    <option value="app">App-Entwicklung</option>
+                    <option value="beratung">Digitalisierungsberatung</option>
+                  </select>
+                </div>
+                <div class="honeypot"><label>Firmen-URL<input type="text" name="company_url" tabindex="-1" autocomplete="off"></label></div>
+                <div class="field field--check">
+                  <input id="loc-privacy" name="privacy" type="checkbox" required>
+                  <label for="loc-privacy">Ich stimme der Verarbeitung meiner Daten gemäß <a href="/datenschutz.html">Datenschutzerklärung</a> zu. <span class="req">*</span></label>
+                </div>
+                <button class="btn btn--primary btn--block" type="submit">Erstgespräch anfragen</button>
+                <div class="form__status" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCAL TRUST SIGNALS ============ -->
+    <section class="section--tight section--soft">
+      <div class="container">
+        <div class="grid grid-3" data-reveal>
+          <div class="card center"><h3>📍 Aus der Region</h3><p>Wir kennen den Hamburger Mittelstand und sind für Vor-Ort-Termine schnell bei Ihnen.</p></div>
+          <div class="card center"><h3>🤝 Persönlich erreichbar</h3><p>Fester, deutschsprachiger Ansprechpartner — kein anonymes Support-Center.</p></div>
+          <div class="card center"><h3>🔒 DSGVO &amp; EU-Hosting</h3><p>Datenschutzkonforme Umsetzung mit Hosting in Deutschland/EU.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FÜR UNTERNEHMEN AUS HAMBURG ============ -->
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="section-head center" data-reveal>
+          <span class="eyebrow">Lokal verwurzelt</span>
+          <h2>Für Unternehmen aus Hamburg und Umgebung</h2>
+          <p class="lead">Ob Handwerksbetrieb in Altona, Logistiker in der Hafencity oder Dienstleister in Eimsbüttel — wir digitalisieren und automatisieren Hamburger Unternehmen mit messbaren Ergebnissen. Sie profitieren von kurzen Wegen, persönlicher Betreuung und einem Partner, der die Region kennt.</p>
+        </div>
+        <div class="prose" data-reveal>
+          <h3>Wir betreuen Hamburg und die gesamte Metropolregion</h3>
+          <p>Als Digitalagentur mit Fokus auf Automatisierung unterstützen wir Betriebe aus dem Hamburger Stadtgebiet und dem Umland. Von der ersten Analyse über die Umsetzung bis zur laufenden Optimierung haben Sie einen festen Ansprechpartner an Ihrer Seite. Termine vereinbaren wir flexibel — bei Ihnen vor Ort in Hamburg oder bequem per Videocall.</p>
+        </div>
+        <h3 class="center mt-2" data-reveal>Einsatzgebiet rund um Hamburg</h3>
+        <ul class="pill-list" data-reveal>
+          <li>Altona</li>
+          <li>Eimsbüttel</li>
+          <li>Hafencity</li>
+          <li>St. Pauli</li>
+          <li>Winterhude</li>
+          <li>Wandsbek</li>
+          <li>Harburg</li>
+          <li>Bergedorf</li>
+          <li>Norderstedt</li>
+          <li>Pinneberg</li>
+          <li>Ahrensburg</li>
+          <li>Lüneburg</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head center" data-reveal>
+          <span class="eyebrow">Leistungen in Hamburg</span>
+          <h2>Digitalisierung &amp; Automatisierung aus einer Hand</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card" data-reveal><h3>Websites &amp; Shops</h3><p>Schnelle, SEO-optimierte Websites, die Hamburger Besucher in Kunden verwandeln.</p></div>
+          <div class="card" data-reveal><h3>Automatisierung &amp; KI</h3><p>n8n-Workflows und KI-Agenten, die wiederkehrende Aufgaben rund um die Uhr erledigen.</p></div>
+          <div class="card" data-reveal><h3>App-Entwicklung</h3><p>Web- und Mobile-Apps, die interne Abläufe und Kundenservice vereinfachen.</p></div>
+          <div class="card" data-reveal><h3>Online-Marketing</h3><p>Local SEO, Google &amp; Meta Ads — auf planbare Anfragen aus der Region ausgerichtet.</p></div>
+          <div class="card" data-reveal><h3>Leadgenerierung</h3><p>Funnels und CRM-Anbindung, die qualifizierte Anfragen automatisch einsammeln.</p></div>
+          <div class="card" data-reveal><h3>Digitalisierungsberatung</h3><p>Klarer Fahrplan mit Aufwand, Zeitplan und erwartetem ROI — ohne Fachjargon.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="stats">
+          <div class="stat" data-reveal><div class="stat__num">100+</div><div class="stat__label">begleitete Unternehmen</div></div>
+          <div class="stat" data-reveal><div class="stat__num">15h</div><div class="stat__label">gesparte Arbeitszeit pro Woche</div></div>
+          <div class="stat" data-reveal><div class="stat__num">+42%</div><div class="stat__label">mehr qualifizierte Anfragen</div></div>
+          <div class="stat" data-reveal><div class="stat__num">24/7</div><div class="stat__label">laufende Automatisierungen</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCAL TESTIMONIALS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center" data-reveal><span class="eyebrow">Stimmen aus Hamburg</span><h2>Das sagen Unternehmen aus der Region</h2></div>
+        <div class="grid grid-3">
+          <figure class="quote" data-reveal><p>„Endlich ein Partner direkt aus Hamburg, der unsere Prozesse versteht. Die Automatisierung läuft seit Monaten reibungslos.“</p><figcaption class="quote__by"><span class="quote__avatar">SK</span><span><strong>Stefan K.</strong><span>Elektrobetrieb, Hamburg-Altona</span></span></figcaption></figure>
+          <figure class="quote" data-reveal><p>„Kurze Wege, persönlicher Kontakt und ein Termin bei uns im Betrieb — genau so stellt man sich Zusammenarbeit vor.“</p><figcaption class="quote__by"><span class="quote__avatar">MB</span><span><strong>Martina B.</strong><span>Logistik, Hamburg-Hafencity</span></span></figcaption></figure>
+          <figure class="quote" data-reveal><p>„Unsere neue Website bringt deutlich mehr Anfragen aus Hamburg. Local SEO hat wirklich gezündet.“</p><figcaption class="quote__by"><span class="quote__avatar">TR</span><span><strong>Tobias R.</strong><span>Dienstleistung, Hamburg-Eimsbüttel</span></span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NAP / KONTAKT INFO ============ -->
+    <section class="section section--soft">
+      <div class="container container--narrow">
+        <div class="section-head center" data-reveal>
+          <span class="eyebrow">Kontakt &amp; Standort</span>
+          <h2>So erreichen Sie uns in Hamburg</h2>
+        </div>
+        <div class="card center" data-reveal>
+          <p><strong>Automatisieren-Digital — Hamburg</strong></p>
+          <p>Musterstraße 1, 20095 Hamburg</p>
+          <p>Telefon: <a href="tel:+490000000000">+49 000 0000000</a></p>
+          <p>E-Mail: <a href="mailto:info@automatisieren-digital.de">info@automatisieren-digital.de</a></p>
+          <p class="muted" style="font-size:var(--fs-200)">Termine vor Ort in Hamburg oder per Video nach Absprache.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ (FAQPage JSON-LD above) ============ -->
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="section-head center" data-reveal><span class="eyebrow">Häufige Fragen</span><h2>Digitalagentur in Hamburg — FAQ</h2></div>
+        <div class="accordion" data-reveal>
+          <details class="acc" open><summary class="acc__q">Arbeitet ihr auch mit Unternehmen außerhalb der Hamburger Innenstadt?</summary><div class="acc__a">Ja. Wir betreuen Unternehmen aus ganz Hamburg und der Metropolregion — von Altona über die Hafencity bis nach Harburg, Pinneberg, Norderstedt und Lüneburg. Termine sind vor Ort oder per Video möglich.</div></details>
+          <details class="acc"><summary class="acc__q">Seid ihr persönlich in Hamburg erreichbar?</summary><div class="acc__a">Ja. Sie haben einen festen, deutschsprachigen Ansprechpartner. Für Unternehmen aus Hamburg und Umgebung sind Vor-Ort-Termine nach Absprache jederzeit möglich.</div></details>
+          <details class="acc"><summary class="acc__q">Welche Leistungen bietet ihr in Hamburg an?</summary><div class="acc__a">Websites, Apps, Prozessautomatisierung mit n8n und KI, Online-Marketing sowie Leadgenerierung — alles aus einer Hand und für Hamburger Unternehmen aus Handwerk, Handel, Industrie und Dienstleistung.</div></details>
+          <details class="acc"><summary class="acc__q">Ist die Zusammenarbeit DSGVO-konform?</summary><div class="acc__a">Ja. Wir hosten in Deutschland bzw. der EU, setzen Consent-Management ein und dokumentieren die Datenverarbeitung sauber — inklusive Auftragsverarbeitungsvertrag.</div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA BAND ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <h2>Ihr Digitalpartner in Hamburg</h2>
+          <p class="mt-1">Sichern Sie sich ein kostenloses Erstgespräch — vor Ort in Hamburg oder per Video. Wir zeigen Ihnen die wirkungsvollsten Digitalisierungs- und Automatisierungshebel für Ihr Unternehmen.</p>
+          <div class="hero__actions"><a class="btn btn--light btn--lg" href="#beratung">Kostenloses Erstgespräch sichern</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ SLIM LANDING FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Automatisieren-Digital · Deutschland</p>
+        <ul class="footer-links">
+          <li><a href="/impressum.html">Impressum</a></li>
+          <li><a href="/datenschutz.html">Datenschutz</a></li>
+          <li><a href="#" onclick="ADIGITAL.openConsent();return false;">Cookie-Einstellungen</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ COOKIE BANNER ============ -->
+  <aside class="cookie" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-Hinweis">
+    <h4>Wir respektieren Ihre Privatsphäre</h4>
+    <p>Wir verwenden Cookies für Funktion, Statistik und Marketing. Notwendige Cookies sind immer aktiv. Sie entscheiden über den Rest.</p>
+    <div class="field--check mt-1"><input id="consent-analytics" type="checkbox"><label for="consent-analytics">Statistik (Google Analytics)</label></div>
+    <div class="field--check"><input id="consent-marketing" type="checkbox"><label for="consent-marketing">Marketing (Meta, LinkedIn, Ads)</label></div>
+    <div class="cookie__actions">
+      <button class="btn btn--primary" data-consent="accept">Alle akzeptieren</button>
+      <button class="btn btn--ghost" data-consent="save">Auswahl speichern</button>
+      <button class="btn btn--ghost" data-consent="reject">Ablehnen</button>
+    </div>
+  </aside>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
